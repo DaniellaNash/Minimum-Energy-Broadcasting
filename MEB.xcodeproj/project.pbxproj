@@ -10,6 +10,7 @@
 		94568B861D48D532007D27F6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 94568B851D48D532007D27F6 /* main.c */; };
 		94568B8E1D48D5FE007D27F6 /* Simulated Annealing.c in Sources */ = {isa = PBXBuildFile; fileRef = 94568B8C1D48D5FE007D27F6 /* Simulated Annealing.c */; };
 		94568B911D48D7F0007D27F6 /* Minimum Spanning Tree.c in Sources */ = {isa = PBXBuildFile; fileRef = 94568B8F1D48D7F0007D27F6 /* Minimum Spanning Tree.c */; };
+		94568B941D48D881007D27F6 /* Genetic Algorithm.c in Sources */ = {isa = PBXBuildFile; fileRef = 94568B921D48D881007D27F6 /* Genetic Algorithm.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		94568B8D1D48D5FE007D27F6 /* Simulated Annealing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Simulated Annealing.h"; path = "../Simulated Annealing.h"; sourceTree = "<group>"; };
 		94568B8F1D48D7F0007D27F6 /* Minimum Spanning Tree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Minimum Spanning Tree.c"; sourceTree = "<group>"; };
 		94568B901D48D7F0007D27F6 /* Minimum Spanning Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Minimum Spanning Tree.h"; sourceTree = "<group>"; };
+		94568B921D48D881007D27F6 /* Genetic Algorithm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "Genetic Algorithm.c"; sourceTree = "<group>"; };
+		94568B931D48D881007D27F6 /* Genetic Algorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Genetic Algorithm.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +50,8 @@
 		94568B791D48D532007D27F6 = {
 			isa = PBXGroup;
 			children = (
+				94568B921D48D881007D27F6 /* Genetic Algorithm.c */,
+				94568B931D48D881007D27F6 /* Genetic Algorithm.h */,
 				94568B8F1D48D7F0007D27F6 /* Minimum Spanning Tree.c */,
 				94568B901D48D7F0007D27F6 /* Minimum Spanning Tree.h */,
 				94568B841D48D532007D27F6 /* MST */,
@@ -131,6 +136,7 @@
 			files = (
 				94568B861D48D532007D27F6 /* main.c in Sources */,
 				94568B911D48D7F0007D27F6 /* Minimum Spanning Tree.c in Sources */,
+				94568B941D48D881007D27F6 /* Genetic Algorithm.c in Sources */,
 				94568B8E1D48D5FE007D27F6 /* Simulated Annealing.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

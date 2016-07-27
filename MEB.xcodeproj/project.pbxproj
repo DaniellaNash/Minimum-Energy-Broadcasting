@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		94568B861D48D532007D27F6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 94568B851D48D532007D27F6 /* main.c */; };
+		94568B8E1D48D5FE007D27F6 /* Simulated Annealing.c in Sources */ = {isa = PBXBuildFile; fileRef = 94568B8C1D48D5FE007D27F6 /* Simulated Annealing.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		94568B821D48D532007D27F6 /* MEB */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MEB; sourceTree = BUILT_PRODUCTS_DIR; };
 		94568B851D48D532007D27F6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		94568B8C1D48D5FE007D27F6 /* Simulated Annealing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "Simulated Annealing.c"; path = "../Simulated Annealing.c"; sourceTree = "<group>"; };
+		94568B8D1D48D5FE007D27F6 /* Simulated Annealing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Simulated Annealing.h"; path = "../Simulated Annealing.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +44,7 @@
 		94568B791D48D532007D27F6 = {
 			isa = PBXGroup;
 			children = (
-				94568B841D48D532007D27F6 /* MEB */,
+				94568B841D48D532007D27F6 /* MST */,
 				94568B831D48D532007D27F6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,11 +57,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		94568B841D48D532007D27F6 /* MEB */ = {
+		94568B841D48D532007D27F6 /* MST */ = {
 			isa = PBXGroup;
 			children = (
+				94568B8C1D48D5FE007D27F6 /* Simulated Annealing.c */,
+				94568B8D1D48D5FE007D27F6 /* Simulated Annealing.h */,
 				94568B851D48D532007D27F6 /* main.c */,
 			);
+			name = MST;
 			path = MEB;
 			sourceTree = "<group>";
 		};
@@ -119,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94568B861D48D532007D27F6 /* main.c in Sources */,
+				94568B8E1D48D5FE007D27F6 /* Simulated Annealing.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
